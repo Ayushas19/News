@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Reader</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
+    <favicon href="docxx.jpg" type="image/x-icon">
+
+    
+     
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <i class="fas fa-newspaper"></i>
+                Newush
+            </div>
+            <label class="theme-toggle">`
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider">THEME</span>
+            </label>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="categories" id="categories">
+            <button class="category-btn active" data-category="general">General</button>
+            <button class="category-btn" data-category="technology">Technology</button>
+            <button class="category-btn" data-category="business">Business</button>
+            <button class="category-btn" data-category="sports">Sports</button>
+            <button class="category-btn" data-category="entertainment">Entertainment</button>
+            <button class="category-btn" data-category="health">Health</button>
+            <button class="category-btn" data-category="science">Science</button>
+        </div>
+
+        <div class="news-grid" id="news-grid">
+            <!-- News cards will be inserted here -->
+        </div>
+    </main>
+</body>
+</html>
